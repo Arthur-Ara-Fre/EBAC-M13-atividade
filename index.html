@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS avançado M13</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        body{
+            background-color: orange;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container container-sm">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="img-fluid"  src="https://cdn.pixabay.com/photo/2018/07/28/14/30/soccer-3568168_1280.jpg" style="height: 852px;" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="img-fluid"  src="https://cdn.pixabay.com/photo/2022/11/22/20/25/ball-7610545_1280.jpg" style="height: 852px;" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="img-fluid"  src="https://cdn.pixabay.com/photo/2023/04/17/10/31/tennis-7932066_1280.jpg" style="height: 852px;"  alt="">
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+                
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6  w-lg-auto mt-4 mx-auto">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2023/06/25/23/50/bicycle-8088372_1280.jpg" style="height: 320px;" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 w-lg-auto mt-4 mx-auto">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2023/05/11/03/34/baseball-7985433_1280.jpg" style="height: 320px;" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 w-lg-auto mt-4 mx-auto">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2022/09/19/10/27/golf-7465213_1280.jpg" style="height: 320px;" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 w-lg-auto mt-4 mx-auto">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2017/09/13/09/21/hockey-2744912_1280.jpg" style="height: 320px;" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 w-lg-auto mt-4 mx-auto">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2012/10/25/23/32/boxing-62867_1280.jpg" style="height: 320px;" alt="">
+                    </div>
+                    <div class="col-lg-4 col-md-6 w-lg-auto mt-4 mx-auto">
+                        <img class="img-fluid" src="https://cdn.pixabay.com/photo/2015/09/06/01/00/surfing-926822_1280.jpg" style="height: 320px;" alt="">
+                    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="d-grid col-lg-3 mt-4 mx-auto">
+                <div class="card">
+                    
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/02/23/19/56/medal-3176449_1280.jpg" style="height: 300px;" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Torne-se um campeão</h4>
+                        <p class="card-text"><strong>pratique esportes conosco para um mundo mais saudável</strong> </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
